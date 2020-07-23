@@ -20,6 +20,6 @@ for i in range(0,df_len,step):
     jsonString = json.dumps(dict)
     sys.stdout.write(jsonString + '\n')
     sys.stdout.flush()
-    time.sleep(0.01)
+    time.sleep(1)
 
 
